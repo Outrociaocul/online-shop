@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gleb's shop
+        </title>
+        <link href="main_page.css" rel="stylesheet" type="text/css" media="all">
+        <link href="buttons.css" rel="stylesheet" type="text/css" media="all">
+        <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-base.min.js"></script>
+        <script>
+            /*
+            $prods = Connection::getAllSKU();
+            $book = 0; 
+            $fur = 0; 
+            $dvd = 0;
+            foreach ($products as $prod)
+		{
+			$sku = $p["sku"];
+			$type = Connection::getType($sku);
+            switch ($type)
+                    {
+                        case "book":
+                            $book = $book + 1; 
+                            break; 
+                        case "furniture":
+                            $fur = $fur + 1; 
+                            break; 
+                        case "dvd":
+                            $dvd = $dvd + 1; 
+                            break; 
+                    }
+        }*/
+        anychart.onDocumentReady(function() {
+        var data = {
+  header: ["Country", "Number of cases"],
+  rows: [
+    ["United States", 337072],
+    ["Spain", 131646],
+    ["Italy", 128948],
+    ["Germany", 100123],
+    ["France", 93773],
+    ["China", 82602],
+    ["Iran", 58226],
+    ["United Kingdom", 48436],
+    ["Turkey", 27069],
+    ["Switzerland", 21100]
+]};
+var chart = anychart.column();
+chart.data(data);
+chart.title("Top 10 Countries with the Most Cases of COVID-19");
+chart.container("chart");
+chart.draw();
+});
+
+            </script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="pl"><span>Product List</span></div>
+            <div id="bts">
+		        <a href="add_product"><button class="neo-button green-button" id="add">ADD</button></a>
+                <button class="neo-button red-button" id="delete-product-btn">MASS DELETE</button>
+            </div>
+            
+        </div>
+        
+        <hr />
+		
+        <div id="prodlist">
+
+        </div>
+        <div id="chart" style="width: 100%; height: 500px;"></div>
+    </body>
+</html>

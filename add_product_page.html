@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Gleb's shop
+        </title>
+        <link href="add_product_page.css" rel="stylesheet" type="text/css" media="all">
+        <link href="buttons.css" rel="stylesheet" type="text/css" media="all">
+        
+        <script defer src="add_product_type_switcher.js"></script>
+        <script defer src="ajaxRequestXML.js"></script>
+        <script defer src="add_product_page.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="pa"><span>Product Add</span></div>
+            <div id="bts">
+                <button class="neo-button green-button" id="save" onclick="saveProduct()">Save</button>
+		        <a href="/"><button class="neo-button red-button" id="cancel">Cancel</button></a>
+            </div>
+            
+        </div>
+        
+        <hr />
+        <div id="addprod">
+            <form id="product_form" method="POST" action="/" accept-charset="UTF-8">
+                <div id="form-title">Add Product Form</div>
+                <div id="inputs">
+                <label for="sku">SKU</label>
+		<input type="text" id="sku" name="sku" placeholder="Please provide SKU like GGWP-007">
+		<div id="rsp_sku">
+		<input type="checkbox" class="secret" style="display:none;" value="fasle">
+			<!-- --></div><br>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Please provide product name">
+		<div id="rsp_name">
+		<input type="checkbox" class="secret" style="display:none;" value="fasle">
+			<!-- --></div><br>
+                <label for="price">Price</label>
+                <input type="text" id="price" name="price" placeholder="Please provide price like 20.00">
+		<div id="rsp_price">
+		<input type="checkbox" class="secret" style="display:none;" value="fasle">
+			<!-- --></div><br>
+
+                <label type="text" for="productType">Type Switcher</label> 
+                <select name="productType" id="productType" onchange="changeForm()">
+                    <option value="choose">Please choose product type</option>
+                    <option id="DVD" value="DVD">DVD</option>
+                    <option id="Furniture" value="Furniture">Furniture</option>
+                    <option id="Book" value="Book">Book</option>
+                </select>
+                </div>
+            </form>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,69 @@
+[Mon Nov 14 15:57:48 2022] PHP 8.1.7-1ubuntu3.1 Development Server (http://178.128.200.130:8080) started
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:11371 Accepted
+[Mon Nov 14 15:58:30 2022] PHP Warning:  Undefined array key "checkboxes" in /root/online-shop/delete_items.php on line 7
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:11371 Closing
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9355 Accepted
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9355 [200]: GET /buttons.css
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9355 Closing
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9354 Accepted
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9354 [200]: GET /main_page.css
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9354 Closing
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9351 Accepted
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9351 [200]: GET /main_page.js
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:9351 Closing
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:11173 Accepted
+[Mon Nov 14 15:58:30 2022] 176.74.124.27:11180 Accepted
+[Mon Nov 14 15:59:17 2022] 176.74.124.27:11173 Closing
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:11180 [200]: GET /add_product_page.css
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:11180 Closing
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64947 Accepted
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64947 [200]: GET /add_product_type_switcher.js
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64947 Closing
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64941 Accepted
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64941 [200]: GET /buttons.css
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64941 Closing
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64942 Accepted
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64942 [200]: GET /ajaxRequestXML.js
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64942 Closing
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64943 Accepted
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64943 [200]: GET /add_product_page.js
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:64943 Closing
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:11538 Accepted
+[Mon Nov 14 15:59:18 2022] 176.74.124.27:11334 Accepted
+[Mon Nov 14 15:59:20 2022] PHP Warning:  Undefined array key "checkboxes" in /root/online-shop/delete_items.php on line 7
+[Mon Nov 14 15:59:20 2022] 176.74.124.27:11538 Closing
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:11334 [200]: GET /main_page.css
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:11334 Closing
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:4549 Accepted
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:4549 [200]: GET /buttons.css
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:4549 Closing
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:4546 Accepted
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:4546 [200]: GET /main_page.js
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:4546 Closing
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:11218 Accepted
+[Mon Nov 14 15:59:21 2022] 176.74.124.27:11217 Accepted
+[Mon Nov 14 16:01:21 2022] 176.74.124.27:11218 Closed without sending a request; it was probably just an unused speculative preconnection
+[Mon Nov 14 16:01:21 2022] 176.74.124.27:11218 Closing
+[Mon Nov 14 16:01:21 2022] 176.74.124.27:11217 Closed without sending a request; it was probably just an unused speculative preconnection
+[Mon Nov 14 16:01:21 2022] 176.74.124.27:11217 Closing
+[Mon Nov 14 16:01:21 2022] 176.74.124.27:51362 Accepted
+[Mon Nov 14 16:01:21 2022] 176.74.124.27:51361 Accepted
+[Mon Nov 21 16:30:44 2022] PHP 8.1.7-1ubuntu3.1 Development Server (http://178.128.200.130:8081) started
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:45333 Accepted
+[Mon Nov 21 16:32:09 2022] PHP Warning:  Undefined array key "checkboxes" in /root/online-shope-mmcs/delete_items.php on line 7
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:45333 Closing
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:45341 Accepted
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:45341 [200]: GET /main_page.css
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:45341 Closing
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:46893 Accepted
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:46893 [200]: GET /buttons.css
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:46893 Closing
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:46908 Accepted
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:46908 [200]: GET /main_page.js
+[Mon Nov 21 16:32:09 2022] 176.74.124.55:46908 Closing
+[Mon Nov 21 16:32:10 2022] 176.74.124.55:46616 Accepted
+[Mon Nov 21 16:32:10 2022] 176.74.124.55:46615 Accepted
+[Mon Nov 21 16:33:10 2022] 176.74.124.55:46616 Closed without sending a request; it was probably just an unused speculative preconnection
+[Mon Nov 21 16:33:10 2022] 176.74.124.55:46616 Closing
+[Mon Nov 21 16:33:10 2022] 176.74.124.55:46615 Closed without sending a request; it was probably just an unused speculative preconnection
+[Mon Nov 21 16:33:10 2022] 176.74.124.55:46615 Closing

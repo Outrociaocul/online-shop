@@ -1,0 +1,5 @@
+
+        INSERT INTO furniture 
+        (sku, name, price, width, height, length) 
+        VALUES ('GG5', 'Closet', 30, 
+        100, 200, 200)

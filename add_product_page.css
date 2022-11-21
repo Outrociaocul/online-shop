@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+body
+{
+   font-family: Helvetica, Arial, sans-serif;
+   background: #ecf0f3;
+}
+
+#addprod
+{
+    
+   margin: 0;
+   width: 100vw;
+   background: #ecf0f3;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   place-items: center;
+   overflow: hidden;
+   font-family: poppins;
+}
+
+#pa
+{
+    width: 100%;
+}
+
+span 
+{
+    font-size: 3em;
+}
+
+#bts 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    width: 250px;
+    margin-right: 40px;
+}
+
+
+#header 
+{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+}
+
+
+hr
+ {
+    display: block;
+    height: 3px;
+    border: 0;
+    border-top: 3px solid #555;
+    margin: 1em 0;
+    padding: 0;
+}
+
+input {
+    caret-color: red;
+    margin-bottom: 4px;
+}
+
+#product_form 
+{
+    position: relative;
+  width: 350px;
+  margin: 50px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+#inputs 
+{
+    text-align: left;
+  margin-top: 30px;
+}
+
+#form-title {
+    margin-top: 10px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #1DA1F2;
+    letter-spacing: 1px;
+  }
+
+label, input, select 
+{
+    display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+select 
+{
+    margin-bottom: 50px;
+}
+
+label {
+    margin-bottom: 4px;
+  }
+  
+  
+  input::placeholder {
+    color: gray;
+  }
+
+  input, select {
+    background: #ecf0f3;
+    padding: 10px;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 14px;
+    border-radius: 50px;
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  }
